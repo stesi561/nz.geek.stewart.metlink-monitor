@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS servicelocations (
        id SERIAL PRIMARY KEY,
        RecordedAtTime DATETIME,
        VehicleRef INTEGER,
-       ServiceID INTEGER,
+       ServiceID VARCHAR(10),
        HasStarted BOOLEAN,
        DepartureTime DATETIME,
        OriginStopID INTEGER,
